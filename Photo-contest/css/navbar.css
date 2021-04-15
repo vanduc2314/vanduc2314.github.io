@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Mont;
+  src: url(/font/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Valentime;
+  src: url(/font/Valentime.otf);
+}
+* {
+  font-family: Mont;
+}
+body {
+  background-color: #f3f4ed;
+}
+.navbar-brand {
+    font-family: Valentime;
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: white !important;
+  }
+  .nav-item {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Mont;
+  }
+  .nav-item a {
+    color: aliceblue !important;
+  }
+  .active a {
+    color: #ff8f33 !important;
+  }
+  .navbar {
+    background-color: #424642 !important;
+  }

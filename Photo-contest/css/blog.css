@@ -1,0 +1,38 @@
+
+body {
+  background-color: #f3f4ed;
+}
+.card-title{
+    font-weight: bolder;
+}
+
+a, a:hover,.page-link,.page-link:hover{
+    color: #ff8f33;
+}
+
+.card-footer{
+    background-color: #536162;
+    color: #f3f4ed !important;
+    letter-spacing: 1px;
+}
+.btn-primary{
+    background: #ff8f33;
+    border: none;
+    border-radius: 0;
+    padding: 8px 16px;
+}
+.card,.card-img-top,.card-footer{
+    border-radius: 0 !important;
+}
+.btn-secondary,.btn-secondary:hover,.btn-primary:hover{
+    background-color:#ff8f33;
+    border-radius: 0%;
+    border-color:#ff8f33 ;
+}
+.form-control:focus{
+    border: none;
+    box-shadow: 0 0 0 0.2rem #ff8f33;
+}
+.project{
+    padding: 8px;
+}

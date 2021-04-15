@@ -1,0 +1,103 @@
+
+.gal {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
+.gal img {
+  width: 100%;
+  padding: 7px 0;
+}
+@media (max-width: 500px) {
+  .gal {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+}
+
+
+h1 {
+  margin: 64px 0 24px 0;
+  font-weight: bold;
+  color: #ff8f33;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.title {
+  font-weight: bold;
+}
+.count {
+  display: none;
+}
+.expire {
+  background-color: #424642;
+  color: white;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  margin-top: 24px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.col-2 div {
+  font-weight: bold;
+  text-align: center;
+}
+.col-2 p {
+  text-align: center;
+  color: #ff8f33;
+}
+.join {
+  background: #ff8f33;
+  color: floralwhite;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  margin-top: 24px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.join:hover {
+  background: #ff7f17;
+  color: white;
+}
+.newsletter {
+  margin-top: 64px;
+  background-image: url(/img/phea-rum-VooXo_OpizI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter h1 {
+  color: white !important;
+}
+.edit_size {
+  max-height: 720px;
+}
+.thumb {
+  height: 300px;
+}
+.filter button {
+  margin: 32px 32px 0 0;
+  border:none;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: none;
+  letter-spacing: 2px;
+}
+.filter button:hover{
+  color: #ff8f33;
+}
+.filter button:focus{
+  outline: solid #ff8f33;
+  color: #ff7f17 !important;
+}
+
+
+

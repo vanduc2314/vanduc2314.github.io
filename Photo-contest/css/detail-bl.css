@@ -1,0 +1,68 @@
+.img-fluid {
+  max-width: 50%;
+}
+.tool {
+  margin-bottom: 24px;
+}
+.join {
+  border: none;
+  text-transform: uppercase;
+  background-color: #ff8f33;
+  color: white;
+  padding: 4px 16px;
+  letter-spacing: 2px;
+}
+.btn-secondary {
+  border-color: #ff8f33;
+  border-radius: 0%;
+  text-transform: uppercase;
+  background-color: #ff8f33;
+  color: white;
+  letter-spacing: 2px;
+}
+.btn-secondary:hover {
+  border-color: #ff8f33;
+  background-color: #ff8018;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #ff8018;
+}
+thead {
+  background-color: #ff8f33;
+  color: white;
+}
+tr td button {
+  border: none;
+  text-transform: uppercase;
+  background-color: #ff8f33;
+  color: white;
+  padding: 4px 16px;
+  letter-spacing: 2px;
+}
+
+.modal-footer .btn-primary{
+  border-color: #ff8f33;
+  border-radius: 0%;
+  text-transform: uppercase;
+  background-color: #ff8f33;
+  color: white;
+  letter-spacing: 2px;
+}
+.modal-footer .btn-secondary{
+  background-color: rgb(148, 148, 148);
+  border-color: rgb(148, 148, 148);
+}
+.hide{
+  display: none;
+}
+.st{
+  overflow-x:auto;
+}
+.project{
+  padding: 0 8px;
+}
+@media (max-width:500px) {
+  .img-fluid {
+    max-width: 100%;
+  }
+}

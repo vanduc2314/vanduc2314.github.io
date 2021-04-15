@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" />
+    <script src="../main.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="icon" href="/img/android-chrome-512x512.png">
+    <title>Trang Chủ</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../html/index.html">PContest</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../html/index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/contest.html">Cuộc thi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 edit_size" src="../img/andi-rieger-vfEqA8sKe6A-unsplash.jpg"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 edit_size" src="../img/nik-radzi-XO8GYtijVfI-unsplash.jpg"
+                            alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 edit_size" src="../img/jordan-heinrichs-UpA6QvGpLHc-unsplash.jpg"
+                            alt="Third slide">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container event">
+        <h1>đang diễn ra</h1>
+        <div class="row">
+            <div class="col-2 w-100 stuff"></div>
+            <div class=" event_img col-4">
+                <img src="../img/CuocThiAnh-BacSon.jpg" class="img-fluid thumb" alt="" srcset="">
+            </div>
+            <div class=" event_content col-5">
+                <h3 class="title">Khoảnh khắc Bắc Sơn 2021</h3>
+                <p>Phản ánh những nét đẹp đặc sắc về phong cảnh thiên nhiên, sự phong phú, đa dạng, độc đáo về văn hóa;
+                    các sản phẩm, điểm đến du lịch hấp dẫn; </p>
+                <div class="row countdown">
+                    <div class="col-2">
+                        <div>ngày</div>
+                        <p id="day"></p>
+                    </div>
+                    <div class="col-2">
+                        <div>giờ</div>
+                        <p id="hours"></p>
+                    </div>
+                    <div class="col-2">
+                        <div>phút</div>
+                        <p id="minutes"></p>
+                    </div>
+                    <div class="col-2">
+                        <div>giây</div>
+                        <p id="seconds"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="join">Tham gia</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid newsletter">
+        <h1 data-hello="dsf">Ảnh Đạt Giải</h1>
+    </div>
+    <div class="container">
+        <div class="row filter d-flex justify-content-center">
+            <button data-filter="nhat">giải nhất</button>
+            <button data-filter="nhi">giải nhì</button>
+            <button data-filter="ba">Giải ba</button>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <hr>
+                <div class="gal">
+                    <a class="nhat" href="../img/markus-spiske-G2kO9dnnEH0-unsplash.jpg"><img
+                            src="../img/markus-spiske-G2kO9dnnEH0-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="nhat" href="../img/tamanna-rumee-EZMlWlD-nOU-unsplash.jpg"><img
+                            src="../img/tamanna-rumee-EZMlWlD-nOU-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="nhat" href="../img/yaya-the-creator-qf64BxWaL9E-unsplash.jpg"><img
+                            src="../img/yaya-the-creator-qf64BxWaL9E-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="nhat"
+                        href="../img/depositphotos_264919332-stock-illustration-the-inscription-summer-sale-in.jpg"><img
+                            src="../img/depositphotos_264919332-stock-illustration-the-inscription-summer-sale-in.jpg"
+                            alt="" srcset=""></a>
+                    <a class="nhat" href="/img/agent-j-5Gu5s19Aqyw-unsplash.jpg"><img
+                            src="../img/agent-j-5Gu5s19Aqyw-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="nhi" href="../img/balkan-campers-ON2TRrhgOBU-unsplash.jpg"><img
+                            src="../img/balkan-campers-ON2TRrhgOBU-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="nhi" href="../img/luis-quintero-En9Fbgk1a7A-unsplash.jpg"><img
+                            src="../img/luis-quintero-En9Fbgk1a7A-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="nhi" href="../img/simon-launay-A2bkqAyRXhE-unsplash.jpg"><img
+                            src="../img/simon-launay-A2bkqAyRXhE-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="nhi" href="../img/resize_202017211850_HGNews.jpg"><img
+                            src="../img/resize_202017211850_HGNews.jpg" alt="" srcset=""></a>
+                    <a class="nhi" href="../img/markus-spiske-G2kO9dnnEH0-unsplash.jpg"><img
+                            src="../img/markus-spiske-G2kO9dnnEH0-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="ba" href="../img/tamanna-rumee-EZMlWlD-nOU-unsplash.jpg"><img
+                            src="../img/tamanna-rumee-EZMlWlD-nOU-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="ba" href="../img/balkan-campers-ON2TRrhgOBU-unsplash.jpg"><img
+                            src="../img/balkan-campers-ON2TRrhgOBU-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="ba" href="../img/yaya-the-creator-qf64BxWaL9E-unsplash.jpg"><img
+                            src="../img/yaya-the-creator-qf64BxWaL9E-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="ba" href="../img/simon-launay-A2bkqAyRXhE-unsplash.jpg"><img
+                            src="../img/simon-launay-A2bkqAyRXhE-unsplash.jpg" alt="" srcset=""></a>
+                    <a class="nhi" href="../img/markus-spiske-G2kO9dnnEH0-unsplash.jpg"><img
+                            src="../img/markus-spiske-G2kO9dnnEH0-unsplash.jpg" alt="" srcset=""></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-4 letter">
+                    <h4>Đăng kí nhận tin</h4>
+                    <small>Đăng kí để được nhận thông báo kết quả sớm nhất cũng như thông tin về các cuộc thi sắp diễn
+                        ra</small>
+                </div>
+                <div class="col-5 email-holder">
+                    <div class="input-email">
+                        <span class="iconify" data-icon="ic:outline-email" data-inline="false"></span>
+                        <input type="text" placeholder="Email của bạn...">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="border-bottom: 1px solid white;"></div>
+            <div class="row pco">
+                <div class="col-4 icon">
+                    <h2 class="navbar-brand">PContest</h2>
+                </div>
+                <div class="col-4 mt-3 inf">
+                    <ul class="infor">
+                        <li> <a>Liên hệ</a></li>
+                        <li><a>Dịch vụ</a> </li>
+                        <li> <a>Điều Khoản sử dụng</a> </li>
+                        <li><a>FAQs</a> </li>
+                    </ul>
+                </div>
+                <div class="col-4 mt-3 fl">
+                    <h3 class="follow">Follow us </h3>
+                    <span class="iconify" data-icon="typcn:social-instagram-circular" data-inline="false"></span>
+                    <span class="iconify" data-icon="mdi:facebook" data-inline="false"></span>
+                    <span class="iconify" data-icon="mdi:facebook-messenger" data-inline="false"></span>
+                    <span class="iconify" data-icon="typcn:social-twitter" data-inline="false"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

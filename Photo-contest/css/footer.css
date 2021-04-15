@@ -1,0 +1,80 @@
+footer {
+  background-color: #ff7f17;
+}
+.infor {
+  list-style: none;
+}
+.infor li a {
+  color: white !important;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.follow {
+  color: white;
+}
+.fl .iconify {
+  color: #f3f4ed;
+  font-size: 32px !important ;
+  margin-right: 16px;
+}
+.input-email .iconify {
+  font-size: 24px !important;
+  padding-left: 8px;
+  color: white;
+}
+.input-email {
+  margin-top: 30px;
+  border: 2px solid white;
+  width: fit-content;
+}
+.email-holder input {
+  background: none;
+  border: none;
+}
+.email-holder input::placeholder {
+  color: white !important;
+  font-size: 14px;
+}
+.email-holder input:focus {
+  outline: none !important;
+  color: white;
+}
+.email-holder button {
+  border: none;
+  width: 6em;
+  background: white;
+  color: #ff7f17;
+}
+.email-holder button:focus {
+  outline: none;
+}
+.email-holder button:hover {
+  color: white;
+  background: #ff8f33;
+}
+.letter {
+  padding: 32px 0 12px 12px;
+  color: white;
+}
+.letter h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+@media (max-width: 576px) {
+  .email-holder button {
+    width: fit-content;
+  }
+  .input-email {
+    margin-top: 30px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+  }
+  .email-holder input {
+    background: none;
+    border: none;
+    width: 30px;
+  }
+}
