@@ -64,11 +64,18 @@ $(document).ready(function () {
     let email = $(".email").val();
     let src_pic = $(".file").val();
     let check = $('input[class="form-check-input"]:checked').length;
-    if (name.length > 0 && email.length> 0 && src_pic.length > 0&&check>0) {
+    if (
+      name.length > 0 &&
+      email.length > 0 &&
+      src_pic.length > 0 &&
+      check > 0
+    ) {
       $("tbody").append(
         `<tr>
     <th scope="row">1</th>
-    <td><a href="`+src_pic`"><img src="`+src_pic`" class="img-fluid"></a></td>
+    <td><a href="` +
+          src_pic`"><img src="` +
+          src_pic`" class="img-fluid"></a></td>
     <td>` +
           name +
           `</td>
@@ -82,25 +89,24 @@ $(document).ready(function () {
       $("#exampleModal").modal("hide");
     }
   });
-  $(window).resize(function() {
+  $(window).resize(function () {
     var width = $(window).width();
-    if (width < 500){
-      $(".icon").removeClass("col-4")
-      $(".inf").removeClass("col-4 mt-3")
-      $(".fl").removeClass("col-4")
-      $('.event_img').removeClass('col-4')
-      $('stuff').removeClass('col-2')
-      $('.event_content').removeClass('col-5')
-      $('.event_content').css({"padding":"0 16px","font-size":"1rem"})
-    }
-    else {
-      $(".icon").addClass("col-4")
-      $(".inf").addClass("col-4")
-      $(".fl").addClass("col-4")
-      $('.event_img').addClass('col-4')
-      $('.stuff').addClass('col-2')
-      $('.event_content').addClass('col-5')
-      $('.event').css("padding","0")
+    if (width < 500) {
+      $(".icon").removeClass("col-4");
+      $(".inf").removeClass("col-4 mt-3");
+      $(".fl").removeClass("col-4");
+      $(".event_img").removeClass("col-4");
+      $("stuff").removeClass("col-2");
+      $(".event_content").removeClass("col-5");
+      $(".event_content").css({ padding: "0 16px", "font-size": "1rem" });
+    } else {
+      $(".icon").addClass("col-4");
+      $(".inf").addClass("col-4");
+      $(".fl").addClass("col-4");
+      $(".event_img").addClass("col-4");
+      $(".stuff").addClass("col-2");
+      $(".event_content").addClass("col-5");
+      $(".event").css("padding", "0");
     }
   });
   var countDownDate = new Date("Apr 20,2021 12:30:00").getTime();
@@ -114,7 +120,9 @@ $(document).ready(function () {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    $(".count-down").html(days+" ngày "+hours+" giờ "+minutes+" phút "+seconds+" giây");
+    $(".count-down").html(
+      days + " ngày " + hours + " giờ " + minutes + " phút " + seconds + " giây"
+    );
     if (distance < 0) {
       clearInterval(x);
       $(".join").html("hết hạn");
@@ -122,16 +130,25 @@ $(document).ready(function () {
       $(".join").addClass("expire").removeClass("join");
     }
   }, 1000);
-    $("tr td a").fancybox({
-    	openEffect : 'none',
-    	closeEffect	: 'none',
-    	helpers : {
-    		title : {
-    			type : 'outside'
-    		}
-    	}
-    })
-    $(".gal a").fancybox({
-    
-    })
+
+  $("tr td a").fancybox({
+    openEffect: "none",
+    closeEffect: "none",
+    helpers: {
+      title: {
+        type: "outside",
+      },
+    },
+  });
+  
+  $(".gal a").fancybox({
+    openEffect: "none",
+    closeEffect: "none",
+    helpers: {
+      title: {
+        type: "outside",
+      },
+    },
+  });
+
 });
