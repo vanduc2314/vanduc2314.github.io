@@ -89,9 +89,8 @@ $(document).ready(function () {
       $("#exampleModal").modal("hide");
     }
   });
-  $(window).resize(function () {
-    var width = $(window).width();
-    if (width < 500) {
+    var width = window.screen.width;
+    if (width < 550) {
       $(".icon").removeClass("col-4");
       $(".inf").removeClass("col-4 mt-3");
       $(".fl").removeClass("col-4");
@@ -108,7 +107,6 @@ $(document).ready(function () {
       $(".event_content").addClass("col-5");
       $(".event").css("padding", "0");
     }
-  });
   var countDownDate = new Date("Apr 20,2021 12:30:00").getTime();
   var x = setInterval(() => {
     var now = new Date().getTime();
