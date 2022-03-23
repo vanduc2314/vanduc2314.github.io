@@ -1,0 +1,66 @@
+html {
+  font-size: 16px;
+}
+body {
+  padding-top: 5rem;
+  background: #f3e3d3;
+  color: #5C4038;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+.form {
+  padding: 1.5rem;
+  background-color: #e5b299;
+  border-radius: 12px;
+}
+
+.btn {
+  border-radius: 12px;
+  width: 100%;
+  padding: 1rem 7rem;
+  font-size: 1.25rem;
+  color: #FCDEC0;
+}
+.loginbtn:hover {
+  background-color: #49322b;
+  color: #FCDEC0;
+}
+.loginbtn {
+  margin-top: 24px;
+  background-color: #5c4038;
+}
+.form-control {
+  height: 4rem;
+  border-radius: 12px;
+  background-color: 
+  #F3E3D3;
+}
+.form-control::placeholder{
+  padding-left: 16px;
+  color: #e5b299;
+  font-size: 1.25rem;
+}
+.loginbtn:active{
+  background-color: #49322b !important;
+}
+.form-control:focus{
+  padding-left: 16px;
+  color: #e5b299;
+  font-size: 1.25rem;
+}
+.cabtn {
+  background-color: #B4846C;
+  border: none;
+}
+.cabtn:hover {
+  background-color: #9e735e;
+  color: #FCDEC0;
+}.cabtn:active{
+  background-color: #49322b !important;
+}
+.text_dont{
+  color: #B4846C;
+  margin: 24px 0 12px 0;
+}

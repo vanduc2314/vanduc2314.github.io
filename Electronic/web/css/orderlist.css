@@ -1,0 +1,96 @@
+
+.input-search{
+        width: 100%;
+        font-size: 16px;
+        color: #7D5A50;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #E5B299;
+	border: none;
+	border-radius: 12px;
+}
+.input-search::placeholder{
+        color: #7D5A50;
+        font-weight: 600;
+}
+.search-order-btn{
+        font-size: 16px;
+	color: #F3E3D3;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #8E5431;
+	border: none;
+	border-radius: 12px;
+        width: 100%;
+}
+.filter-order{
+        margin-top:auto;
+        margin-bottom:auto;
+        text-align:center;
+        font-size: 24px;
+        font-weight: bold;
+}
+.select-filter{
+        background-color: #E5B299;
+        font-weight:600;
+}
+
+thead{
+        background-color: #7D5A50;
+       
+}
+th,td{
+       border-color: #7D5A50 !important;
+       
+}
+thead th{
+        color: #FCDEC0;
+}
+.date-input{
+        color: #7D5A50;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 8px 24px;
+	background: #E5B299;
+	border: none;
+	border-radius: 6px;
+}
+.date-input::placeholder{
+        color: #7D5A50;
+}
+.sub-date{
+        font-size: 16px;
+	color: #F3E3D3;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: inline-block;
+        padding: 8px 24px;
+	background: #8E5431;
+	border: none;
+	border-radius: 6px;
+}
+.sub-date:hover{
+        background: #633b22; 
+}
+.search-order-btn:hover{
+        background: #633b22; 
+}
+.total-sec td{
+    background-color: #5C4038 !important;
+    color:#E86137;
+    font-weight: 600;
+}
+.sort_btn{
+        font-size: 16px;
+	color: #F3E3D3;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 13px 30px 12px;
+	background: #8E5431;
+	border: none;
+	border-radius: 12px;
+}

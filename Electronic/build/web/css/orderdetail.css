@@ -1,0 +1,130 @@
+.logout{
+	position: fixed;
+	right:24px;
+	bottom:24px;
+	font-size: 40px;
+	color: #3F2103;
+}
+.logout:hover{
+	color: #8d4e0f;
+}
+.order-name {
+  font-weight: bold;
+}
+.order-status {
+  color: #004b75;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.order-date {
+  font-weight: 500;
+}
+.status-btn {
+  background-color: #8e5431;
+  color: #fcdec0;
+  border-radius: 12px;
+  padding: 16px 32px;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1.25px;
+  margin-right: 8px;
+}
+.status-btn:hover {
+  color: #fde4cb;
+  background-color: #7a492a;
+}
+.customer-sec {
+  padding: 24px;
+}
+.line {
+  height: 2px;
+  background-color: #b4846c;
+}
+.note-sec {
+  padding: 24px;
+}
+.add-note {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  background-color: #5c4038;
+  color: #fcdec0;
+  border-radius: 12px;
+}
+.add-note:hover {
+  background-color: #4b342e;
+  color: #fcdec0;
+}
+thead {
+  background-color: #7d5a50;
+}
+th,
+td {
+  border-color: #7d5a50 !important;
+}
+thead th {
+  color: #fcdec0;
+}
+.total {
+  color: #5c4038;
+  font-weight: bolder;
+}
+.payment {
+  font-weight: 800;
+}
+.pay-method {
+  padding: 16px 24px;
+}
+select option {
+  background-color: #4b342e;
+}
+.nice-select {
+  background-color: #5c4038;
+  color: #fcdec0;
+  border: none;
+  border-radius: 12px;
+}
+.option {
+  color: #5c4038;
+}
+.input-search {
+  width: 100%;
+  font-size: 16px;
+  color: #7d5a50;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 13px 30px 12px;
+  background: #f3e3d3;
+  border: none;
+  border-radius: 12px;
+}
+.input-search::placeholder {
+  color: #7d5a50;
+  font-weight: 400;
+}
+.search-order-btn {
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 32px;
+  background: #5c4038;
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+}
+.search_icon {
+  font-size: 24px;
+  color: #fcdec0;
+}
+.select-shipper-btn{
+  background-color: #5C4038;
+  color: #fcdec0;
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-weight: 400;
+}
+.select-shipper-btn:hover {
+  color: #ffe4c8;
+  background-color: #49332c;
+}
