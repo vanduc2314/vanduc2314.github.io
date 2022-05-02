@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ProductStatTC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51e94549-71dd-417a-a48d-77e34927bc19</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b570759e-f865-4818-a2d4-00765d1ba360</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/StatTestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>b570759e-f865-4818-a2d4-00765d1ba360</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>startDate</value>
+      <variableId>f1e8176f-08e2-416f-a0f9-05e17ab194e1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b570759e-f865-4818-a2d4-00765d1ba360</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>EndDate</value>
+      <variableId>bc1ef835-8445-4488-a1f9-d527f8968c09</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b570759e-f865-4818-a2d4-00765d1ba360</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Alert</value>
+      <variableId>94dc3083-65ba-4e85-8896-d4260623bee7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1e8176f-08e2-416f-a0f9-05e17ab194e1</id>
+      <masked>false</masked>
+      <name>start_date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bc1ef835-8445-4488-a1f9-d527f8968c09</id>
+      <masked>false</masked>
+      <name>end_date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>94dc3083-65ba-4e85-8896-d4260623bee7</id>
+      <masked>false</masked>
+      <name>alert</name>
+   </variable>
+</TestCaseEntity>
