@@ -6,12 +6,12 @@
    <elementGuidId>dd315f9d-6c3b-46aa-88f6-15298bca4fc2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Don', &quot;'&quot;, 't have an account')])[1]/following::button[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Don', &quot;'&quot;, 't have an account')])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ca48560c-4e14-49be-9ab9-175231df19d7</webElementGuid>
+      <webElementGuid>0b022ef9-1b99-4e44-9701-6aa8a2326830</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value> btn btn-primary cabtn</value>
-      <webElementGuid>c2475a9e-f802-4321-bc4f-8c827afc6439</webElementGuid>
+      <webElementGuid>b366cda3-1cf5-4968-86d0-da48815c7d72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <type>Main</type>
       <value>Create
                             Account</value>
-      <webElementGuid>9f242381-7c63-4e31-8e82-d9b126afd2dc</webElementGuid>
+      <webElementGuid>66fffb1a-6707-4eaa-bad8-b4fe6031d56f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;col-md-5 mx-auto&quot;]/div[@class=&quot;form&quot;]/a[1]/button[@class=&quot;btn btn-primary cabtn&quot;]</value>
-      <webElementGuid>823798ae-0453-41b1-928d-73017c175113</webElementGuid>
+      <webElementGuid>f1855574-32c5-4b0d-b3fd-118926fe3b86</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Don', &quot;'&quot;, 't have an account')])[1]/following::button[1]</value>
-      <webElementGuid>f96066f6-5a91-49c8-ac29-22f7d069aa76</webElementGuid>
+      <webElementGuid>08e7c7fe-8797-4b50-af35-044f7fe5f80c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/button</value>
-      <webElementGuid>6eef7959-de9c-4d9c-8238-a4f6e6ad4f5a</webElementGuid>
+      <webElementGuid>f963cabb-303c-43d2-94ab-d69215627010</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,6 +73,6 @@
       <value>//button[(text() = 'Create
                             Account' or . = 'Create
                             Account')]</value>
-      <webElementGuid>b87b6408-c49c-424e-b007-58c9c3147c2c</webElementGuid>
+      <webElementGuid>08821227-f181-4f14-9b10-6b8d5b2fb905</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

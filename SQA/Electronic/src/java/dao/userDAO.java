@@ -79,13 +79,16 @@ public class userDAO extends DAO {
 
     public ArrayList<Staff> getListShipper() {
         ArrayList<Staff> slist = new ArrayList<>();
-
         String sql = "SELECT * FROM `tbluser` WHERE position='shipper'";
         try {
             PreparedStatement ps = conn.prepareStatement(sql);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 Staff s = new Staff();
+                s.setPosition(rs.getString("position"));
+                s.setUsername(rs.getString("username"));
+                s.setEmail(rs.getString("email"));
+                s.setPassword(rs.getString("password"));
                 s.setName(rs.getString("name"));
                 s.setId(rs.getInt("id"));
                 s.setPhone(rs.getString("phone"));

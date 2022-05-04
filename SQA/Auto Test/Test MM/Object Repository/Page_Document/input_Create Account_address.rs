@@ -6,12 +6,12 @@
    <elementGuidId>2b7e2cb4-8c41-454c-8ae8-7b5c35fc69d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='inputAddress']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#inputAddress</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='inputAddress']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d340d917-6bdc-4be2-85fd-2e16f23efe39</webElementGuid>
+      <webElementGuid>72c11a82-362c-413b-82f2-bc1c926447bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>d43fe780-bcdb-489f-b093-0f7923fdee86</webElementGuid>
+      <webElementGuid>a23a0719-511b-4a15-a41e-52abdf12cf03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>46f5969e-4b5e-47a8-8add-648ff8fa580c</webElementGuid>
+      <webElementGuid>87844f48-fc9d-4e47-9747-fe555d328090</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>inputAddress</value>
-      <webElementGuid>ad5503e2-802a-40cc-9afe-dba64cd4617f</webElementGuid>
+      <webElementGuid>b7ba1534-1682-4f27-b927-1addc0c13895</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>address</value>
-      <webElementGuid>548f50ab-129c-46b3-aad9-20aeb1eef690</webElementGuid>
+      <webElementGuid>42175f80-ada9-4a49-ab24-ded25996f417</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Address</value>
-      <webElementGuid>9b875921-31fc-4070-975d-4c4eb782daf1</webElementGuid>
+      <webElementGuid>52840d80-a56b-4df3-9f97-91ebc34e270c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;inputAddress&quot;)</value>
-      <webElementGuid>4e0e5d68-5ac1-449c-bf0e-8c9b8a3ecf35</webElementGuid>
+      <webElementGuid>46df5ef8-f63e-4682-a485-c91bde936d5a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='inputAddress']</value>
-      <webElementGuid>efea5965-6a22-408e-9e5b-a59888cb7fd6</webElementGuid>
+      <webElementGuid>66404d1b-859e-4f8d-b7d9-b74aa00c9800</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>4b63f0c6-3e12-4118-bb67-c6a1a54176a3</webElementGuid>
+      <webElementGuid>fefc108e-b277-4071-9901-a03baef35984</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'inputAddress' and @name = 'address' and @placeholder = 'Address']</value>
-      <webElementGuid>b252e9a1-822b-4994-ad49-9d7a117cc4a4</webElementGuid>
+      <webElementGuid>23195609-ec4b-4b30-ae75-b5be4d6cf191</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

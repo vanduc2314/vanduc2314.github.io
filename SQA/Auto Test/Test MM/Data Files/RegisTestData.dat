@@ -17,6 +17,6 @@
    </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>ProductStat</sheetName>
+   <sheetName>DangKi_TestCase</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

@@ -32,30 +32,47 @@ WebUI.click(findTestObject('Object Repository/Page_Login/button_Sign            
 WebUI.click(findTestObject('Object Repository/Page_Electronic Store/a_Report'))
 
 WebUI.click(findTestObject('Object Repository/Page_Electronic Store/a_Product Statistic'))
-
-def sdate=new Date().parse("yyyy/mm/dd",start_date)
-String newSdate=sdate.format("yyyy-mm-dd")
-def edate=new Date().parse("yyyy/mm/dd",end_date)
-String newEdate=sdate.format("yyyy-mm-dd")
-WebUI.executeJavaScript('document.getElementById(\'sdate\').value="' + newSdate + '"', null)
-
-WebUI.executeJavaScript('document.getElementById(\'edate\').value="' + newEdate+ '"', null)
-
-WebUI.click(findTestObject('Object Repository/Page_Electronic Store/button_Statistic'))
-
-if(alert!='') {
+if(start_date==""||end_date=="") {
+	WebUI.click(findTestObject('Object Repository/Page_Electronic Store/button_Statistic'))
 	elementPresent=WebUI.waitForAlert(5)
-if (elementPresent==true) {
- alertText = WebUI.getAlertText()
- if (alertText==alert){
- KeywordUtil.markPassed('SUCCESS')
- WebUI.acceptAlert()
- } else {
- WebUI.acceptAlert()
- KeywordUtil.markFailed('ERROR')
- }
+	if (elementPresent==true) {
+	 alertText = WebUI.getAlertText()
+	 if (alertText==alert){
+	 KeywordUtil.markPassed('SUCCESS')
+	 WebUI.acceptAlert()
+	 } else {
+	 WebUI.acceptAlert()
+	 KeywordUtil.markFailed('ERROR')
+	 }
+	}
 }
-else {
-	KeywordUtil.markFailed('Missing alert')
-}
-}
+	else {
+		def sdate=new Date().parse("yyyy/mm/dd",start_date)
+		String newSdate=sdate.format("yyyy-mm-dd")
+		def edate=new Date().parse("yyyy/mm/dd",end_date)
+		String newEdate=sdate.format("yyyy-mm-dd")
+		WebUI.executeJavaScript('document.getElementById(\'sdate\').value="' + newSdate + '"', null)
+		
+		WebUI.executeJavaScript('document.getElementById(\'edate\').value="' + newEdate+ '"', null)
+		
+		WebUI.click(findTestObject('Object Repository/Page_Electronic Store/button_Statistic'))
+		
+	
+	if(alert!="") {
+		elementPresent=WebUI.waitForAlert(5)
+	if (elementPresent==true) {
+	 alertText = WebUI.getAlertText()
+	 if (alertText==alert){
+	 KeywordUtil.markPassed('SUCCESS')
+	 WebUI.acceptAlert()
+	 } else {
+	 WebUI.acceptAlert()
+	 KeywordUtil.markFailed('ERROR')
+	 }
+	}
+	else {
+		KeywordUtil.markFailed('Missing alert')
+	}
+	}}
+	
+

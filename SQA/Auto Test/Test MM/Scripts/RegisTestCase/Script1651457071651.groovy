@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Document/input_Create Accou
 WebUI.click(findTestObject('Object Repository/Page_Document/button_Create                              _1e4c57'))
 
 if (error == '1') {
-    if (WebUI.verifyElementPresent(findTestObject('Page_Document/div_Password not match'), 30) == true) {
+    if (WebUI.verifyElementPresent(findTestObject('Page_Document/div_Password not match'), 5) == true) {
         Errmsg_notif = WebUI.getText(findTestObject('Page_Document/div_Password not match'))
 		if(WebUI.verifyMatch(Errmsg_notif, output, false)) {
 			KeywordUtil.markPassed('Wording is fine')

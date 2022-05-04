@@ -6,12 +6,12 @@
    <elementGuidId>8877a66f-b1e0-41de-aeaf-e19967456558</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.loginbtn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>12a698c5-7d4c-4ac8-a49a-55ca8124e234</webElementGuid>
+      <webElementGuid>e4393aea-8c90-41e4-a12d-6d9b72bfb94d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>25123528-70b4-4a15-b784-0bfabedc5814</webElementGuid>
+      <webElementGuid>314f63c1-be50-4b65-ad44-3bf4b0b53d1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary loginbtn</value>
-      <webElementGuid>b4d2f556-f273-4fe4-8603-1b47db7803f4</webElementGuid>
+      <webElementGuid>3cec14e6-ef1e-4be1-ac6e-442b92e948f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <type>Main</type>
       <value>Create
                                     Account</value>
-      <webElementGuid>1f5a0100-1e35-41c4-b986-336bf2bfe76f</webElementGuid>
+      <webElementGuid>8fd75a0e-7fb8-4e6f-869b-96394c6de243</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;col-md-8 mx-auto&quot;]/div[@class=&quot;form&quot;]/form[1]/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-group col-md-5&quot;]/button[@class=&quot;btn btn-primary loginbtn&quot;]</value>
-      <webElementGuid>5d6659b1-cfb5-4c3b-b290-63f80a90292d</webElementGuid>
+      <webElementGuid>d11011a5-6fae-4143-ab2d-5c13fe015342</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>442f7db6-605d-4e46-9bf1-b5b7042955dd</webElementGuid>
+      <webElementGuid>dd7e4464-6514-4c1a-805f-4e1a4267360e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Account'])[1]/following::button[1]</value>
-      <webElementGuid>ab720b61-ba1d-45c7-a06c-7a2fb87d3963</webElementGuid>
+      <webElementGuid>f319c10c-1b6a-4510-b117-e2f347aa41fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agreement'])[1]/preceding::button[1]</value>
-      <webElementGuid>9956609c-0b1e-42c0-870c-19a9e563b1d7</webElementGuid>
+      <webElementGuid>29728995-0d94-4381-acbb-4a7898c357ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>1de691c8-1782-4655-b64b-49ce380371bb</webElementGuid>
+      <webElementGuid>7249e9ae-5a66-4fac-86b8-5a4e85c5decb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <value>//button[@type = 'submit' and (text() = 'Create
                                     Account' or . = 'Create
                                     Account')]</value>
-      <webElementGuid>5b04ebfc-14f4-4029-983c-b1be2d1b96f6</webElementGuid>
+      <webElementGuid>22217496-d03d-48f2-9235-cdcaa077eb9c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

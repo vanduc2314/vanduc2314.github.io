@@ -6,12 +6,12 @@
    <elementGuidId>5f0ed0a1-df96-4853-9f1e-d1ee3cedc769</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='inputTel']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#inputTel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='inputTel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>83609d75-a550-4cb8-99c1-4b52e7d3de75</webElementGuid>
+      <webElementGuid>87d6bda1-2fcd-4272-b6cf-008de63a92c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e9c8ccfa-959d-4173-ab86-d76039536655</webElementGuid>
+      <webElementGuid>cbeecd29-30f3-40b4-aeca-429e6009e8b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>4deedb22-34f9-4887-a4b7-a3a74950cdf6</webElementGuid>
+      <webElementGuid>61dfb047-b817-4027-8a0b-dc297551d3ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>inputTel</value>
-      <webElementGuid>9ac54dbb-8290-4146-8afc-d8dce844f411</webElementGuid>
+      <webElementGuid>cc9dbb2d-5366-45f8-8657-17a3a92fbf8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>0a0d4ed5-07f0-46ff-a7d6-8cc031a27e79</webElementGuid>
+      <webElementGuid>1dbdd8d2-e711-475a-a3a7-741d9ac29430</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Tel</value>
-      <webElementGuid>f056a74c-a1fd-4952-a56f-f5ebac146801</webElementGuid>
+      <webElementGuid>0d71b612-5b0f-492a-b12f-3944e8956797</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;inputTel&quot;)</value>
-      <webElementGuid>62f966c7-a996-4983-bc55-786b19f471d2</webElementGuid>
+      <webElementGuid>ebc7c00f-88b7-4b17-984a-2804d38c4595</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='inputTel']</value>
-      <webElementGuid>d881d24a-4cca-4c21-8910-7b4731ff1bde</webElementGuid>
+      <webElementGuid>28a1a45f-e8f4-49b4-a441-b1a3bd523fb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/input</value>
-      <webElementGuid>c73e0ead-6d47-41bc-9d7c-8b3527c336ea</webElementGuid>
+      <webElementGuid>3cf73bde-b110-49fb-9487-1e81f89d9ea5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'inputTel' and @name = 'tel' and @placeholder = 'Tel']</value>
-      <webElementGuid>45a4755c-b935-48d0-a326-36b2f4e26943</webElementGuid>
+      <webElementGuid>e08017a8-84c7-4133-a5a1-3ae79b99b480</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -70,7 +70,6 @@ public class billDAO extends DAO {
                 p.setPrice(rs.getDouble("sprice"));
                 p.getP().setPrice(rs.getDouble("price"));
                 listp.add(p);
-
             }
             ps = conn.prepareStatement(sql2);
             ps.setString(1, code);
@@ -87,9 +86,7 @@ public class billDAO extends DAO {
                 d.setId(rs.getInt("id"));
                 d.setStatus(rs.getString("status"));
                 listdinv.add(d);
-
             }
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -97,21 +94,23 @@ public class billDAO extends DAO {
     }
 
     public boolean updatebill(Bill b, String button) {
-        String sql1 = "UPDATE `tblbill` SET `status`=? WHERE id=?";
-        try {
-            PreparedStatement ps = conn.prepareStatement(sql1);
-            ps.setString(1, b.getStatus());
-            ps.setInt(2, b.getId());
-            int rs = ps.executeUpdate();
-            if (rs != 0) {
-                if (button.equals("approve")) {
-                    return true;
+        
+        if(button.equals("approve"))
+        {
+            String sql1 = "UPDATE `tblbill` SET `status`=? WHERE id=?";
+            try {
+                PreparedStatement ps = conn.prepareStatement(sql1);
+                ps.setString(1, b.getStatus());
+                ps.setInt(2, b.getId());
+                int rs = ps.executeUpdate();
+                if (rs != 0) {
+                        return true;
                 }
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
-        if (button.equals("select")) {
+        else if (button.equals("select")) {
             String sql = "UPDATE `tbldeli_inv` SET `ShipperID`=?,`status`=? WHERE id=?";
             try {
                 PreparedStatement ps = conn.prepareStatement(sql);
