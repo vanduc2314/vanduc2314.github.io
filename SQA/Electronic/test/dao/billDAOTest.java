@@ -74,10 +74,10 @@ public class billDAOTest {
          String code = "1";
          Bill bill = bd.getbillbycode(code);
          assertEquals(bill.getId(), 1);
-         assertEquals(bill.getStatus(), "complete");
+         assertEquals(bill.getStatus(), "order");
          assertNull(bill.getNote());
          assertEquals(bill.getC().getPoint(), 0.0 , 1);
-         assertNull(bill.getS());
+         assertEquals(bill.getS().getName(),"duc");
          assertEquals(bill.getPaymentype(), "COD");
          assertNull(bill.getPdate());
          assertEquals(bill.getAmount(), 2657.9700000000003, 1);

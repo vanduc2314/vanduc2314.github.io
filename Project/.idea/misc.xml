@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1655" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable/arrow_vu.xml" value="0.1655" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable/border.xml" value="0.252" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable/button_shape.xml" value="0.1655" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable/calendar_style.xml" value="0.1655" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable/complete_task.xml" value="0.1655" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.124" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.124" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/drawable/priority.xml" value="0.1655" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/activity_android_large14_vu.xml" value="0.1" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/activity_android_large17_vu.xml" value="0.264" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/activity_android_large19_vu.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/activity_android_large21.xml" value="0.15579710144927536" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/activity_android_large5.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/activity_android_large8.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/activity_android_large9.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/actlist_item.xml" value="0.2392857142857143" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/add_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/add_list_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/add_task_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/avatardropdown.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/change_info_screen.xml" value="0.16" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/change_password_screen.xml" value="0.264" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/edit_profile_screen.xml" value="0.2" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/home_screen.xml" value="0.264" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/list_screen.xml" value="0.264" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/setting_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/sign_in_screen.xml" value="0.1358695652173913" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/sign_up_screen.xml" value="0.16" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/task_detail_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/task_item.xml" value="0.264" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/layout/welcome_screen.xml" value="0.19369369369369369" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/menu/actionbar_home.xml" value="0.264" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/menu/actionbar_list.xml" value="0.264" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/menu/avatardropdown.xml" value="0.25416666666666665" />
+        <entry key="..\:/DaiHocStuff/Nam4/AFourthYear2/PhatTrienUngDungChoCacThietBiDiDong/GIT/MobileApp/Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1655" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/button_shape.xml" value="0.316" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/complete_task.xml" value="0.316" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_notifications_none_24.xml" value="0.343" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_repeat_24.xml" value="0.343" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.316" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/priority.xml" value="0.343" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large1.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large13.xml" value="0.33" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large14_vu.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large17_vu.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large19_vu.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large2.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large21.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large3.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large5.xml" value="0.22" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large6.xml" value="0.3691123188405797" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large8.xml" value="0.371875" />
+        <entry key="..\:/Users/keuuu/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large9.xml" value="0.371875" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.233" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/border.xml" value="0.293" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/button_shape.xml" value="0.293" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/check_box_task.xml" value="0.396" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/complete_task.xml" value="0.265" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.293" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.233" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.233" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.3995" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.3995" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.265" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.233" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.233" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.265" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.265" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_notifications_none_24.xml" value="0.233" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_person_add_alt_1_24.xml" value="0.265" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_radio_button_checked_24.xml" value="0.265" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_radio_button_unchecked_24.xml" value="0.265" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_repeat_24.xml" value="0.233" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2675" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.3995" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.233" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/ic_round_calendar_today_24.xml" value="0.293" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/drawable/priority.xml" value="0.233" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large13 - Copy.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large13.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large14_vu.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large17_vu.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large19_vu.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large2.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large21.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large3.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large5.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large6.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large8.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/activity_android_large9.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/actlist_item.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/add_list_dialog.xml" value="0.4426229508196721" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/add_task_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/calendar_screen.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/home.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/home_screen.xml" value="0.264" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/home_screen2.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/list_screen.xml" value="0.3147612156295224" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/search_screen.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/setting_dialog.xml" value="0.140625" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/sign_in_screen.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/sign_up_screen.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/task_bottomlayout.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/task_detail_screen.xml" value="0.4381338742393509" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/task_item.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/toolbar_click_modal.xml" value="0.25" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/layout/welcome_screen.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/menu/actionbar_home.xml" value="0.25" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/menu/actionbar_list.xml" value="0.536" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/menu/avatardropdown.xml" value="0.4" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/menu/search_menu.xml" value="0.39895833333333336" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.293" />
+        <entry key="..\:/Users/pvand/OneDrive/Documents/GitHub/MobileApp/Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.293" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

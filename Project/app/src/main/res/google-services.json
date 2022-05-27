@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "943347740477",
+    "firebase_url": "https://todolate-7b318-default-rtdb.firebaseio.com",
+    "project_id": "todolate-7b318",
+    "storage_bucket": "todolate-7b318.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943347740477:android:5fc366e335ee6b585d1f54",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943347740477-k8v4opmh4vnh5ohb987kcr852muritpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4KHd3paq5wDboGRCCQSO3yfTGbDrKB_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943347740477-k8v4opmh4vnh5ohb987kcr852muritpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943347740477:android:89280d3097f9b1d55d1f54",
+        "android_client_info": {
+          "package_name": "com.example.todolate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943347740477-k8v4opmh4vnh5ohb987kcr852muritpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4KHd3paq5wDboGRCCQSO3yfTGbDrKB_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943347740477-k8v4opmh4vnh5ohb987kcr852muritpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

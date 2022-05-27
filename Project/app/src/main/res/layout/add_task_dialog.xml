@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/addListLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/star">
+
+    <FrameLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:id="@+id/date_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtTaskName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Task name"
+                android:textColor="@color/secondaryDarkColor"
+                android:textColorHint="@color/secondaryDarkColor"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/txt_remind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondaryDarkColor"
+                android:textSize="18dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+
+            <ImageButton
+                android:id="@+id/remind_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|start"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/ic_round_calendar_today_24" />
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="104dp"
+                android:layout_height="52dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="124dp"
+                android:backgroundTint="@android:color/transparent"
+                android:text="Cancel"
+                android:textColor="@color/secondaryDarkColor" />
+            <Button
+                android:id="@+id/btnAddTask"
+                android:layout_width="104dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center|end"
+                android:backgroundTint="@color/secondaryColor"
+                android:text="Add"
+                android:textColor="@color/background" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
